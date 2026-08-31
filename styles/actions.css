@@ -16,5 +16,17 @@ a:active { color: var(--color-action-strong); }
   cursor: pointer;
 }
 
-.button:hover  { background: var(--color-action-strong); border-color: var(--color-action-strong); }
+.button:hover  { background: var(--color-text); border-color: var(--color-action-strong); }
 .button:active { background: var(--color-action-strong); }
+
+.button-secondary { background: transparent; color: var(--color-action); }
+.button-secondary:hover  { background: var(--color-action); color: var(--color-on-action); }
+.button-secondary:active { background: var(--color-action-strong); border-color: var(--color-action-strong); color: var(--color-on-action); }
+
+.button:disabled,
+.button[disabled] {
+  background: var(--color-muted);
+  border-color: var(--color-muted);
+  color: var(--color-on-action);
+  cursor: not-allowed;
+}
