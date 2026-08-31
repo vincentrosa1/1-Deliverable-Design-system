@@ -52,3 +52,18 @@
     --step-3: clamp(1.90rem, 1.55rem + 1.70vw, 2.75rem);
 
 }
+
+
+
+.theme-alt {
+  --color-bg:            #1c1613;
+  --color-surface:       #2a221d;   
+  --color-text:          #f4ece0;  
+  --color-muted:         #b8a894;   
+  --color-border:        #4a3d34;   
+  --color-action:        #e8b04b;   
+  --color-action-strong: #f0c268;   
+  --color-on-action:     #1c1613;   
+  --color-accent:        #7bbf8a;   
+  --color-focus:         #f0c268;   
+}
