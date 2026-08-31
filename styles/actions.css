@@ -30,3 +30,8 @@ a:active { color: var(--color-action-strong); }
   color: var(--color-on-action);
   cursor: not-allowed;
 }
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
