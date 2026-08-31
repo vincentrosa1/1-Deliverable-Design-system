@@ -6,4 +6,17 @@
     --white: #ffffff;
     --brown-900: #211b17;
     --brown-400: #7a6d61;
+
+
+    --color-bg: var(--cream-50);
+    --color-surface: var(--white);
+    --color-text: var(--brown-900);
+    --color-muted: var(--brown-400);
+    --color-border: var(--brown-400);
+    --color-action: var(--red-600);
+    --color-accent: var(--green-700);
+
+    
+
+
 }
