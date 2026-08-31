@@ -16,7 +16,15 @@
     --color-action: var(--red-600);
     --color-accent: var(--green-700);
 
-    
+    --space-2xs: 0.5rem;
+    --space-xs: 0.75rem;
+    --space-sm: 1rem;
+    --space-md: 1.5rem;
+    --space-lg: 2rem;
+    --space-xl: 3rem;
+
+    --measure: 65ch;
+    --container: 64rem;
 
 
 }
