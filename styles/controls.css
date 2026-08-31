@@ -1,0 +1,18 @@
+.field {
+  display: grid;
+  gap: var(--space-2xs);
+  margin-bottom: var(--space-md);
+  max-width: var(--measure);
+}
+label { font-weight: var(--weight-bold); }
+
+input[type="text"],
+input[type="email"],
+select {
+  font: inherit;                 /* redundant with reset, explicit for clarity */
+  padding: var(--space-2xs) var(--space-xs);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface);
+  color: var(--color-text);
+}
