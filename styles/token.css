@@ -1,6 +1,6 @@
 :root {
     --red-600: #c1272d;
-    --green-700: #25fd3a;
+    --green-700: #2f5d3a;
     --gold-500: #e0a92e;
     --cream-50: #fbf6ec; /*background color*/
     --white: #ffffff;
@@ -41,7 +41,7 @@
     --weight-regular: 400;
     --weight-bold: 700;
 
-    --step--1: clamp(0.85rem, 0.82 + 0.15vw, 0.94rem);
+    --step--1: clamp(0.85rem, 0.82rem + 0.15vw, 0.94rem);
     --step-0: var(--text-base);
     --step-1: clamp(1.20rem, 1.13rem + 0.35vw, 1.40rem);
     --step-2: clamp(1.50rem, 1.35rem + 0.70vw, 1.95rem);
